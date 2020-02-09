@@ -1,0 +1,54 @@
+OBJECTIVE:
+This program will allow the user to play Hangman against the computer using a list of words from a txt file
+A function that randomly selects a word from the text dictionary
+A fuction that takes input from the user which will be each letter guessed
+A function that will take the letters guessed correctly and turn them into a string
+We need to create the various variables to store the users inputted data
+We need a variable for the word the computer picks
+We need to create a set of data that holds the letters guessed wrong and the letters guessed right by the user
+We need to display an intro to the program
+We need to build a repetitive system, so that the user can keep guessing letters.
+If the player guesses wrong, a new part of the body is drawn, unit they lose.
+We will add statements at the end and the beginning that welcome and thank the user for playing. 
+
+Pseudocode
+
+def pick_random_word()(:
+
+    This function picks a random word from the words dictionary
+    #open the words dictionary
+    
+    # geberate a random index
+    
+    #print out the word at that index
+    
+    def ask_unser_for_next_letter():
+        #THis function gets a letter guess from the user
+        
+        def
+        generate_word_string(word,letters_guessed):
+        """
+        This function generates the word display tha tshows which letters the user has guessed correctly
+        """
+        output = [] 
+        for letter in word: if letter is guessed, add it to output
+        else, and a _ 
+        return the output as a string
+    
+    #check that the module we are using is currently the main module
+    
+    if__name__== '__main__':
+    
+            WORD = pick_random_word()
+            
+            letters_to_guess =
+        set(WORD)
+            correct_letters_guessed = set()
+            incorrect_letters_guessed= set ()
+            #loop repeats the guessing sequence until the user guesses all the letters OR until the user runs out of guesses
+               
+                #check if user already gessed that letter
+                
+                
+            #tell the user they have won or lost
+                
